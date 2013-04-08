@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>282</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lblFileName">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>80</y>
+     <width>67</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>File Name</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbAddress">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>173</y>
+     <width>141</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Memory Address</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLine">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>128</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Line Number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditFile">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>77</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditLine">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>124</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAddress">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>171</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbSourceFile">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>40</y>
+     <width>108</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Source File</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbFunction">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>8</y>
+     <width>108</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Function</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditFunc">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>6</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdJump">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>226</y>
+     <width>95</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jump</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdCancel">
+   <property name="geometry">
+    <rect>
+     <x>78</x>
+     <y>226</y>
+     <width>95</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
