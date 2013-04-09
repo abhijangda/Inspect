@@ -8,3 +8,9 @@ with core file, debug an existing process, call function etc.
 Running
 =======
 To run execute inspect.sh
+
+Requirements
+=======
+Python 2.7
+PyQt4
+GNU Debugger
